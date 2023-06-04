@@ -455,34 +455,62 @@ public class Rough {
 
         // Remove duplicate numbers from an array
         /*
-         * This is the easy way to remove duplicate values instead of using -1 you can use null for that use Integer and assign null to original
+         * This is the easy way to remove duplicate values instead of using -1 you can
+         * use null for that use Integer and assign null to original
          */
-        // int[] original = new int[5];
-        Integer[] original = new Integer[5];
-        System.out.println("Enter 5 numbers");
-        for (int i = 0; i < original.length; i++) {
-            original[i] = new Scanner(System.in).nextInt();
-        }
 
-        for (int i = 0; i < original.length; i++) {
-            for (int j = i + 1; j < original.length; j++) {
-                if (original[i] == original[j]) {
-                    // original[i] = -1;
-                    original[i] = null;
-                }
-            }
-        }
-        System.out.println("After removal operation");
-        for (int i = 0; i < original.length; i++) {
-            // if (original[i] != -1) {
-            //     System.out.println(original[i]);
-            // }
-            if (original[i] != null) {
-                System.out.println(original[i]);
-            }
-        }
+        // System.out.println("For numbers");
+        // Integer[] original = new Integer[5];
+        // // int[] original = new int[5];
+        // System.out.println("Enter 5 numbers");
+        // for (int i = 0; i < original.length; i++) {
+        //     original[i] = new Scanner(System.in).nextInt();
+        // }
 
-        
+        // for (int i = 0; i < original.length; i++) {
+        //     for (int j = i + 1; j < original.length; j++) {
+        //         if (original[i] == original[j]) {
+        //             original[j] = null;
+        //             // original[i] = -1;
+        //         }
+        //     }
+        // }
+        // System.out.println("After removal operation");
+        // for (int i = 0; i < original.length; i++) {
+        //     if (original[i] != null) {
+        //         System.out.println(original[i]);
+        //     }
+        //     // if (original[i] != -1) {
+        //     // System.out.println(original[i]);
+        //     // }
+        // }
+
+        // System.out.println("===============================");
+
+        // System.out.println("For string");
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.println("Enter something");
+        // String value = scanner.nextLine();
+
+        // // String value = "ajay abin";
+        // System.out.println("Before:-" + value);
+
+        // char[] names = value.toCharArray();
+        // int length = names.length;
+        // for (int i = 0; i < length; i++) {
+        //     for (int j = i + 1; j < length; j++) {
+        //         if ((names[i] == names[j]) && (names[i] != ' ')) {
+        //             names[j] = '\0';
+        //         }
+        //     }
+        // }
+
+        // for (int i = 0; i < names.length; i++) {
+        //     if (names[i] != '\0') {
+        //         System.out.print("After:-" + names[i]);
+        //     }
+
+        // }
 
         // System.out.println("-------------------------------------");
 
